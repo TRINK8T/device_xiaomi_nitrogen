@@ -26,7 +26,6 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common NitrogenOS stuff
 SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Device identifier
